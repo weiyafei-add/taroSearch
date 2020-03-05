@@ -1,0 +1,39 @@
+@import '~taro-ui/dist/style/components/toast.scss';
+@import '~taro-ui/dist/style/components/message.scss';
+@import '~taro-ui/dist/style/components/modal.scss';
+.formIndex {
+  padding: 20px;
+}
+.ToastMessage {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: coral;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.inputBox {
+  display: flex;
+  margin-bottom: 20px;
+  line-height: 100px;
+}
+.input {
+  border: 1px solid #ccc;
+  height: 100px;
+  width: 80%;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.option {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 15px;
+  .optionText {
+    color: red;
+    font-size: 1.2rem;
+  }
+}
+.addImg {
+  width: 100%;
+  height: 550px;
+}
